@@ -1,5 +1,5 @@
 # jfxbullshitbingo
-A bullshit bingo game written in Java using JavaFX, retrofit2 and Gson. Requires Java 17 or newer. <br>
+A bullshit bingo game written in Java using JavaFX, retrofit2 and Gson. Requires Java 17 or newer (The Windows setup version is bundled with OpenJDK 17). <br>
 Bullshit bingo games are loaded as a json file from a web server via retrofit2.<br>
 ![Screenshot of bullshit bingo](https://github.com/MeisterDuedel/jfxbullshitbingo/blob/main/readme/jfxbsb.png) <br>
 ### How to play
