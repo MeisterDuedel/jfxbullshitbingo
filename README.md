@@ -8,7 +8,7 @@ Example: The bullshit bingo in the screenshot is stored at "https://christoph-pi
 The base URL is "https://christoph-pircher.de/bsb/" and the ID is "example".
 ### How to host your own bullshit bingo
 To host your own bullshit bingo you have to create a .json file which has to be available on a web server.
-The json file must have the following format: <br>
+The json file must have the following format and at least 25 entries in the words array: <br>
 ```json
 {
 "title": "Example Bullshit Bingo",
