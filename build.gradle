@@ -7,7 +7,7 @@ plugins {
 }
 //apply plugin: 'idea'
 group 'de.christoph-pircher'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 repositories {
     mavenCentral()
@@ -58,3 +58,16 @@ jlink {
 jlinkZip {
     group = 'distribution'
 }
+
+/* I have to comment this task, application run does not work otherwise and I could not figure out how to fix it */
+/*
+jar {
+    manifest {
+        attributes 'Main-Class': 'de.christophpircher.jfxbullshitbingo.Launcher'
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+*/
